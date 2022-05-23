@@ -1,14 +1,14 @@
 
 class bankAccount {
-  constructor(){
+  constructor(accountNumber, owner){
     this.accountNumber = this.accountNumber;
     this.owner = this.owner;
-    this.transactions = this.transactions;
+    this.transactions = [];
   }
 }
 
 class transaction {
-  constructor(){
+  constructor(date, ammount, payee){
     this.date = date;
     this.amount = amount;
     this.payee = payee;
